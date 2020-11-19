@@ -1,6 +1,8 @@
 package test
 
 import main.Vec3
+import main.dot
+import main.cross
 import org.junit.Test
 import kotlin.test.assertEquals
 
@@ -90,11 +92,24 @@ class Vec3Test {
         assertEquals(32.0, u.dot(v))
     }
     @Test
+    fun testDotFun() {
+        val u = Vec3(1.0, 2.0, 3.0)
+        val v = Vec3(4.0, 5.0, 6.0)
+        assertEquals(32.0, dot(u, v))
+    }
+    @Test
     fun testCross() {
         val u = Vec3(1.0, 2.0, 3.0)
         val v = Vec3(4.0, 5.0, 6.0)
         val expected = Vec3(-3.0, 6.0, -3.0)
         assertEquals(expected, u.cross(v))
+    }
+    @Test
+    fun testCrossFun() {
+        val u = Vec3(1.0, 2.0, 3.0)
+        val v = Vec3(4.0, 5.0, 6.0)
+        val expected = Vec3(-3.0, 6.0, -3.0)
+        assertEquals(expected, cross(u, v))
     }
     @Test
     fun testUnitVector() {

@@ -16,9 +16,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e433ea4-a25c-4c1d-96a9-ec5ef8717025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/RayTracingInOneWeekend_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Vec3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Vec3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Vec3Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Vec3Test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -70,7 +71,7 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="JUnit.Vec3Test">
     <configuration name="RayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RayTracingInOneWeekend" />
       <extension name="coverage">
@@ -116,9 +117,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Vec3Test" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="JUnit.RayTest" />
-        <item itemvalue="JUnit.Vec3Test" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605806184751</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Create blue/white gradient">
+      <created>1605811991377</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605811991377</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,7 +237,8 @@
     <MESSAGE value="Add tests for Vec3" />
     <MESSAGE value="Add IntelliJ workspace" />
     <MESSAGE value="Add Ray classes and more changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Ray classes and more changes" />
+    <MESSAGE value="Create blue/white gradient" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create blue/white gradient" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1169" y="395" width="532" height="348" key="#Notifications" timestamp="1605646954622">
@@ -260,26 +269,26 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="1212" y="318" width="446" height="502" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1605648019152" />
-    <state width="933" height="431" key="GridCell.Tab.0.bottom" timestamp="1605811759271">
+    <state width="885" height="171" key="GridCell.Tab.0.bottom" timestamp="1605820725659">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="933" height="431" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1605811759271" />
-    <state width="933" height="431" key="GridCell.Tab.0.center" timestamp="1605811759270">
+    <state width="885" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1605820725659" />
+    <state width="885" height="171" key="GridCell.Tab.0.center" timestamp="1605820725659">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="933" height="431" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1605811759270" />
-    <state width="933" height="431" key="GridCell.Tab.0.left" timestamp="1605811759270">
+    <state width="885" height="171" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1605820725659" />
+    <state width="885" height="171" key="GridCell.Tab.0.left" timestamp="1605820725659">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="933" height="431" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1605811759270" />
-    <state width="933" height="431" key="GridCell.Tab.0.right" timestamp="1605811759271">
+    <state width="885" height="171" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1605820725659" />
+    <state width="885" height="171" key="GridCell.Tab.0.right" timestamp="1605820725659">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="933" height="431" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1605811759271" />
-    <state x="859" y="201" width="1028" height="833" key="SettingsEditor" timestamp="1605811672200">
+    <state width="885" height="171" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1605820725659" />
+    <state x="857" y="185" width="1028" height="833" key="SettingsEditor" timestamp="1605815093520">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="859" y="201" width="1028" height="833" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1605811672200" />
+    <state x="857" y="185" width="1028" height="833" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1605815093520" />
     <state x="1029" y="279" width="804" height="516" key="Vcs.Push.Dialog.v2" timestamp="1605806192446">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -296,5 +305,8 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="1206" y="337" width="446" height="368" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1605798012297" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RayTracingInOneWeekend$MainKt.ic" NAME="MainKt Coverage Results" MODIFIED="1605820717627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

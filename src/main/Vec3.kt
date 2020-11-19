@@ -58,3 +58,14 @@ open class Vec3(e0: Double = 0.0, e1: Double = 0.0, e2: Double = 0.0) {
     )
     fun unitVector(): Vec3 = this / this.length()
 }
+
+fun dot(u: Vec3, v: Vec3): Double =
+        u.x() * v.x() +
+        u.y() * v.y() +
+        u.z() * v.z()
+
+fun cross(u: Vec3, v: Vec3): Vec3 = Vec3(
+        u.y() * v.z() - u.z() * v.y(),
+        u.z() * v.x() - u.x() * v.z(),
+        u.x() * v.y() - u.y() * v.x()
+)
