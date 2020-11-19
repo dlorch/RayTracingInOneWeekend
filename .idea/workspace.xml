@@ -11,10 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e433ea4-a25c-4c1d-96a9-ec5ef8717025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Vec3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Vec3Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Point3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Ray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/RayTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Vec3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Vec3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -66,7 +69,22 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Vec3Test">
+  <component name="RunManager" selected="JUnit.RayTest">
+    <configuration name="RayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RayTracingInOneWeekend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RayTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Vec3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RayTracingInOneWeekend" />
       <extension name="coverage">
@@ -97,8 +115,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Vec3Test" />
+        <item itemvalue="JUnit.RayTest" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="JUnit.Vec3Test" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605801227873</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add tests for Vec3">
+      <created>1605803818349</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605803818349</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add IntelliJ workspace">
+      <created>1605803841619</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605803841619</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +217,9 @@
     <MESSAGE value="Add libs" />
     <MESSAGE value="Add IDEA project update" />
     <MESSAGE value="Add Vec3 class and some tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Vec3 class and some tests" />
+    <MESSAGE value="Add tests for Vec3" />
+    <MESSAGE value="Add IntelliJ workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add IntelliJ workspace" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1169" y="395" width="532" height="348" key="#Notifications" timestamp="1605646954622">
@@ -215,26 +250,30 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="1212" y="318" width="446" height="502" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1605648019152" />
-    <state width="933" height="281" key="GridCell.Tab.0.bottom" timestamp="1605803778249">
+    <state width="933" height="281" key="GridCell.Tab.0.bottom" timestamp="1605805060381">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="933" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1605803778249" />
-    <state width="933" height="281" key="GridCell.Tab.0.center" timestamp="1605803778249">
+    <state width="933" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1605805060381" />
+    <state width="933" height="281" key="GridCell.Tab.0.center" timestamp="1605805060379">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="933" height="281" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1605803778249" />
-    <state width="933" height="281" key="GridCell.Tab.0.left" timestamp="1605803778249">
+    <state width="933" height="281" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1605805060379" />
+    <state width="933" height="281" key="GridCell.Tab.0.left" timestamp="1605805060378">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="933" height="281" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1605803778249" />
-    <state width="933" height="281" key="GridCell.Tab.0.right" timestamp="1605803778249">
+    <state width="933" height="281" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1605805060378" />
+    <state width="933" height="281" key="GridCell.Tab.0.right" timestamp="1605805060380">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="933" height="281" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1605803778249" />
+    <state width="933" height="281" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1605805060380" />
     <state x="784" y="216" width="1028" height="833" key="SettingsEditor" timestamp="1605797935904">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="784" y="216" width="1028" height="833" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1605797935904" />
+    <state x="1031" y="295" width="804" height="516" key="Vcs.Push.Dialog.v2" timestamp="1605803927418">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="1031" y="295" width="804" height="516" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1605803927418" />
     <state x="1280" y="0" width="640" height="1183" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605648155645">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>

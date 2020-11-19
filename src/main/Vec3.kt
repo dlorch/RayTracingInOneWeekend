@@ -2,7 +2,7 @@ package main
 
 import kotlin.math.sqrt
 
-class Vec3(e0: Double = 0.0, e1: Double = 0.0, e2: Double = 0.0) {
+open class Vec3(e0: Double = 0.0, e1: Double = 0.0, e2: Double = 0.0) {
     private var e = arrayOf(e0, e1, e2)
     fun x() = e[0]
     fun y() = e[1]
@@ -58,6 +58,3 @@ class Vec3(e0: Double = 0.0, e1: Double = 0.0, e2: Double = 0.0) {
     )
     fun unitVector(): Vec3 = this / this.length()
 }
-
-typealias Point3 = Vec3
-typealias Color = Vec3
