@@ -14,7 +14,6 @@
       <change afterPath="$PROJECT_DIR$/src/main/Vec3.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/Vec3Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RayTracingInOneWeekend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RayTracingInOneWeekend.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605800824645</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add libs">
+      <created>1605801216318</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605801216318</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add IDEA project update">
+      <created>1605801227873</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605801227873</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +181,10 @@
     <MESSAGE value="Fixes" />
     <MESSAGE value="IntelliJ IDEA Workspace update" />
     <MESSAGE value="Add README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add README.md" />
+    <MESSAGE value="Add libs" />
+    <MESSAGE value="Add IDEA project update" />
+    <MESSAGE value="Add Vec3 class and some tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Vec3 class and some tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1169" y="395" width="532" height="348" key="#Notifications" timestamp="1605646954622">
@@ -199,22 +215,22 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="1212" y="318" width="446" height="502" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1605648019152" />
-    <state width="933" height="298" key="GridCell.Tab.0.bottom" timestamp="1605800937321">
+    <state width="933" height="281" key="GridCell.Tab.0.bottom" timestamp="1605803778249">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="933" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1605800937321" />
-    <state width="933" height="298" key="GridCell.Tab.0.center" timestamp="1605800937319">
+    <state width="933" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1605803778249" />
+    <state width="933" height="281" key="GridCell.Tab.0.center" timestamp="1605803778249">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="933" height="298" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1605800937319" />
-    <state width="933" height="298" key="GridCell.Tab.0.left" timestamp="1605800937318">
+    <state width="933" height="281" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1605803778249" />
+    <state width="933" height="281" key="GridCell.Tab.0.left" timestamp="1605803778249">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="933" height="298" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1605800937318" />
-    <state width="933" height="298" key="GridCell.Tab.0.right" timestamp="1605800937320">
+    <state width="933" height="281" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1605803778249" />
+    <state width="933" height="281" key="GridCell.Tab.0.right" timestamp="1605803778249">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="933" height="298" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1605800937320" />
+    <state width="933" height="281" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1605803778249" />
     <state x="784" y="216" width="1028" height="833" key="SettingsEditor" timestamp="1605797935904">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
