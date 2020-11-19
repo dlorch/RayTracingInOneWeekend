@@ -69,3 +69,5 @@ fun cross(u: Vec3, v: Vec3): Vec3 = Vec3(
         u.z() * v.x() - u.x() * v.z(),
         u.x() * v.y() - u.y() * v.x()
 )
+
+fun unitVector(v: Vec3): Vec3 = v / v.length()

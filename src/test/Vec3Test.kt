@@ -3,6 +3,7 @@ package test
 import main.Vec3
 import main.dot
 import main.cross
+import main.unitVector
 import org.junit.Test
 import kotlin.test.assertEquals
 
@@ -116,5 +117,11 @@ class Vec3Test {
         val u = Vec3(1.0, 2.0, 3.0)
         val expected = Vec3(0.2672612419124244,0.5345224838248488, 0.8017837257372732)
         assertEquals(expected, u.unitVector())
+    }
+    @Test
+    fun testUnitVectorFun() {
+        val u = Vec3(1.0, 2.0, 3.0)
+        val expected = Vec3(0.2672612419124244,0.5345224838248488, 0.8017837257372732)
+        assertEquals(expected, unitVector(u))
     }
 }

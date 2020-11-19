@@ -209,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605811991377</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="5.10 simple red sphere">
+      <created>1605824997398</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605824997398</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,7 +245,8 @@
     <MESSAGE value="Add IntelliJ workspace" />
     <MESSAGE value="Add Ray classes and more changes" />
     <MESSAGE value="Create blue/white gradient" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create blue/white gradient" />
+    <MESSAGE value="5.10 simple red sphere" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.10 simple red sphere" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1169" y="395" width="532" height="348" key="#Notifications" timestamp="1605646954622">
@@ -269,30 +277,30 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="1212" y="318" width="446" height="502" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1605648019152" />
-    <state width="885" height="171" key="GridCell.Tab.0.bottom" timestamp="1605820725659">
+    <state width="920" height="226" key="GridCell.Tab.0.bottom" timestamp="1605827085104">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="885" height="171" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1605820725659" />
-    <state width="885" height="171" key="GridCell.Tab.0.center" timestamp="1605820725659">
+    <state width="920" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1605827085104" />
+    <state width="920" height="226" key="GridCell.Tab.0.center" timestamp="1605827085103">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="885" height="171" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1605820725659" />
-    <state width="885" height="171" key="GridCell.Tab.0.left" timestamp="1605820725659">
+    <state width="920" height="226" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1605827085103" />
+    <state width="920" height="226" key="GridCell.Tab.0.left" timestamp="1605827085101">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="885" height="171" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1605820725659" />
-    <state width="885" height="171" key="GridCell.Tab.0.right" timestamp="1605820725659">
+    <state width="920" height="226" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1605827085101" />
+    <state width="920" height="226" key="GridCell.Tab.0.right" timestamp="1605827085103">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="885" height="171" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1605820725659" />
+    <state width="920" height="226" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1605827085103" />
     <state x="857" y="185" width="1028" height="833" key="SettingsEditor" timestamp="1605815093520">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="857" y="185" width="1028" height="833" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1605815093520" />
-    <state x="1029" y="279" width="804" height="516" key="Vcs.Push.Dialog.v2" timestamp="1605806192446">
+    <state x="1027" y="263" width="804" height="516" key="Vcs.Push.Dialog.v2" timestamp="1605825014823">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="1029" y="279" width="804" height="516" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1605806192446" />
+    <state x="1027" y="263" width="804" height="516" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1605825014823" />
     <state x="1280" y="0" width="640" height="1183" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605648155645">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
