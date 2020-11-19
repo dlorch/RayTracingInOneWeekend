@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="RayTracingInOneWeekend:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,12 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e433ea4-a25c-4c1d-96a9-ec5ef8717025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Color.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Point3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Ray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/RayTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/RayTracingInOneWeekend_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Vec3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Vec3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +54,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -69,7 +70,7 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RayTest">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="RayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RayTracingInOneWeekend" />
       <extension name="coverage">
@@ -115,8 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RayTest" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="JUnit.RayTest" />
         <item itemvalue="JUnit.Vec3Test" />
       </list>
     </recent_temporary>
@@ -193,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605803841619</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add Ray classes and more changes">
+      <created>1605806184751</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605806184751</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +214,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
@@ -219,7 +228,8 @@
     <MESSAGE value="Add Vec3 class and some tests" />
     <MESSAGE value="Add tests for Vec3" />
     <MESSAGE value="Add IntelliJ workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add IntelliJ workspace" />
+    <MESSAGE value="Add Ray classes and more changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Ray classes and more changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1169" y="395" width="532" height="348" key="#Notifications" timestamp="1605646954622">
@@ -234,46 +244,46 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="441" y="153" width="1028" height="833" key="#Project_Structure/0.0.1920.1200@0.0.1920.1200" timestamp="1605644695888" />
-    <state x="832" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605649397188">
+    <state x="747" y="228" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605811719208">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="832" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1605649397188" />
+    <state x="747" y="228" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1605811719208" />
     <state x="1164" y="315" width="528" height="433" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1605797434127">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="1164" y="315" width="528" height="433" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1605797434127" />
-    <state x="1164" y="329" width="529" height="405" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605797428255">
+    <state x="1162" y="313" width="529" height="405" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605811659086">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="1164" y="329" width="529" height="405" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1605797428255" />
+    <state x="1162" y="313" width="529" height="405" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1605811659086" />
     <state x="1212" y="318" width="446" height="502" key="FileChooserDialogImpl" timestamp="1605648019152">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="1212" y="318" width="446" height="502" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1605648019152" />
-    <state width="933" height="281" key="GridCell.Tab.0.bottom" timestamp="1605805060381">
+    <state width="933" height="431" key="GridCell.Tab.0.bottom" timestamp="1605811759271">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="933" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1605805060381" />
-    <state width="933" height="281" key="GridCell.Tab.0.center" timestamp="1605805060379">
+    <state width="933" height="431" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1605811759271" />
+    <state width="933" height="431" key="GridCell.Tab.0.center" timestamp="1605811759270">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="933" height="281" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1605805060379" />
-    <state width="933" height="281" key="GridCell.Tab.0.left" timestamp="1605805060378">
+    <state width="933" height="431" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1605811759270" />
+    <state width="933" height="431" key="GridCell.Tab.0.left" timestamp="1605811759270">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="933" height="281" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1605805060378" />
-    <state width="933" height="281" key="GridCell.Tab.0.right" timestamp="1605805060380">
+    <state width="933" height="431" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1605811759270" />
+    <state width="933" height="431" key="GridCell.Tab.0.right" timestamp="1605811759271">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="933" height="281" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1605805060380" />
-    <state x="784" y="216" width="1028" height="833" key="SettingsEditor" timestamp="1605797935904">
+    <state width="933" height="431" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1605811759271" />
+    <state x="859" y="201" width="1028" height="833" key="SettingsEditor" timestamp="1605811672200">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="784" y="216" width="1028" height="833" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1605797935904" />
-    <state x="1031" y="295" width="804" height="516" key="Vcs.Push.Dialog.v2" timestamp="1605803927418">
+    <state x="859" y="201" width="1028" height="833" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1605811672200" />
+    <state x="1029" y="279" width="804" height="516" key="Vcs.Push.Dialog.v2" timestamp="1605806192446">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="1031" y="295" width="804" height="516" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1605803927418" />
+    <state x="1029" y="279" width="804" height="516" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1605806192446" />
     <state x="1280" y="0" width="640" height="1183" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605648155645">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
