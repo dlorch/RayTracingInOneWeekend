@@ -1,3 +1,5 @@
+package main
+
 fun main(args: Array<String>) {
     val imageWidth = 256
     val imageHeight = 256
