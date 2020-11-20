@@ -1,9 +1,11 @@
 package main
 
-class HittableList(val obj: Hittable): Hittable {
+class HittableList(val obj: Hittable? = null): Hittable {
     private var objects = ArrayList<Hittable>()
     init {
-        objects.add(obj)
+        if(obj != null) {
+            objects.add(obj)
+        }
     }
     fun clear() {
         objects.clear()

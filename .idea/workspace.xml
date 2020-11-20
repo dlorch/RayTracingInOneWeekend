@@ -16,11 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e433ea4-a25c-4c1d-96a9-ec5ef8717025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Hittable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/HittableList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/RTWeekend.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Sphere.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/HittableList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/HittableList.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -227,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605827884341</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Hittable class, Sphere class and some more constant">
+      <created>1605878892789</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605878892789</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +262,8 @@
     <MESSAGE value="Create blue/white gradient" />
     <MESSAGE value="5.10 simple red sphere" />
     <MESSAGE value="6.11 colored sphere" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.11 colored sphere" />
+    <MESSAGE value="Hittable class, Sphere class and some more constant" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hittable class, Sphere class and some more constant" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1169" y="395" width="532" height="348" key="#Notifications" timestamp="1605646954622">
