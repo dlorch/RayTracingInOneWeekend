@@ -16,10 +16,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e433ea4-a25c-4c1d-96a9-ec5ef8717025" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/Hittable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/HittableList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/RTWeekend.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Sphere.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Vec3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Vec3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Vec3Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Vec3Test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,9 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -216,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605824997398</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="6.11 colored sphere">
+      <created>1605827884341</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605827884341</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,7 +257,8 @@
     <MESSAGE value="Add Ray classes and more changes" />
     <MESSAGE value="Create blue/white gradient" />
     <MESSAGE value="5.10 simple red sphere" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.10 simple red sphere" />
+    <MESSAGE value="6.11 colored sphere" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.11 colored sphere" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1169" y="395" width="532" height="348" key="#Notifications" timestamp="1605646954622">
@@ -265,6 +277,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="747" y="228" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1605811719208" />
+    <state x="1208" y="115" width="444" height="550" key="#com.intellij.ide.util.MemberChooser" timestamp="1605876800377">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="1208" y="115" width="444" height="550" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1605876800377" />
     <state x="1164" y="315" width="528" height="433" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1605797434127">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -277,30 +293,30 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="1212" y="318" width="446" height="502" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1605648019152" />
-    <state width="920" height="226" key="GridCell.Tab.0.bottom" timestamp="1605827085104">
+    <state width="920" height="226" key="GridCell.Tab.0.bottom" timestamp="1605828122424">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="920" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1605827085104" />
-    <state width="920" height="226" key="GridCell.Tab.0.center" timestamp="1605827085103">
+    <state width="920" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1605828122424" />
+    <state width="920" height="226" key="GridCell.Tab.0.center" timestamp="1605828122424">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="920" height="226" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1605827085103" />
-    <state width="920" height="226" key="GridCell.Tab.0.left" timestamp="1605827085101">
+    <state width="920" height="226" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1605828122424" />
+    <state width="920" height="226" key="GridCell.Tab.0.left" timestamp="1605828122424">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="920" height="226" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1605827085101" />
-    <state width="920" height="226" key="GridCell.Tab.0.right" timestamp="1605827085103">
+    <state width="920" height="226" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1605828122424" />
+    <state width="920" height="226" key="GridCell.Tab.0.right" timestamp="1605828122424">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="920" height="226" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1605827085103" />
+    <state width="920" height="226" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1605828122424" />
     <state x="857" y="185" width="1028" height="833" key="SettingsEditor" timestamp="1605815093520">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="857" y="185" width="1028" height="833" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1605815093520" />
-    <state x="1027" y="263" width="804" height="516" key="Vcs.Push.Dialog.v2" timestamp="1605825014823">
+    <state x="1023" y="231" width="804" height="516" key="Vcs.Push.Dialog.v2" timestamp="1605828069658">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="1027" y="263" width="804" height="516" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1605825014823" />
+    <state x="1023" y="231" width="804" height="516" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1605828069658" />
     <state x="1280" y="0" width="640" height="1183" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605648155645">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>

@@ -4,14 +4,14 @@ import kotlin.math.sqrt
 
 fun hitSphere(center: Point3, radius: Double, r: Ray): Double {
     val oc = r.origin - center
-    val a = dot(r.direction, r.direction)
-    val b = 2.0 * dot(oc, r.direction)
-    val c = dot(oc, oc) - radius*radius
-    val discriminant = b*b - 4*a*c
+    val a = r.direction.lengthSquared()
+    val half_b = dot(oc, r.direction)
+    val c = oc.lengthSquared() - radius*radius
+    val discriminant = half_b*half_b - a*c
     if (discriminant < 0) {
         return -1.0
     } else {
-        return (-b - sqrt(discriminant)) / (2.0*a)
+        return (-half_b - sqrt(discriminant)) / a
     }
 }
 
