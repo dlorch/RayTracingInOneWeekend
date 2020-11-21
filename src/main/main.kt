@@ -8,7 +8,7 @@ fun rayColor(r: Ray, world: Hittable, depth: Int): Color {
         return Color(0.0, 0.0, 0.0)
 
     if(world.hit(r, 0.001, infinity, rec)) {
-        val target = rec.p + rec.normal + randomUnitVector()
+        val target = rec.p + rec.normal + randomInHemisphere(rec.normal)
         val result = rayColor(Ray(rec.p, target - rec.p), world, depth-1) * 0.5
         return Color(result.x(), result.y(), result.z())
     }
