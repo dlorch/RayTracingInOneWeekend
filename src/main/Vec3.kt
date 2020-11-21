@@ -1,9 +1,10 @@
 package main
 
+import kotlin.math.abs
 import kotlin.math.sqrt
 
 open class Vec3(e0: Double = 0.0, e1: Double = 0.0, e2: Double = 0.0) {
-    private var e = arrayOf(e0, e1, e2)
+    var e = arrayOf(e0, e1, e2)
     fun x() = e[0]
     fun y() = e[1]
     fun z() = e[2]
@@ -57,6 +58,11 @@ open class Vec3(e0: Double = 0.0, e1: Double = 0.0, e2: Double = 0.0) {
             e[0] * v.y() - e[1] * v.x()
     )
     fun unitVector(): Vec3 = this / this.length()
+    fun nearZero(): Boolean {
+        // Return true if the vector is close to zero in all dimensions.
+        val s = 1e-8
+        return (abs(e[0]) < s) && (abs(e[1]) < s) && (abs(e[2]) < s)
+    }
 }
 
 fun dot(u: Vec3, v: Vec3): Double =
@@ -93,3 +99,5 @@ fun randomInHemisphere(normal: Vec3): Vec3 {
     else
         -inUnitHemisphere
 }
+
+fun reflect(v: Vec3, n: Vec3) = v - n*2.0*dot(v,n)

@@ -8,9 +8,13 @@ fun rayColor(r: Ray, world: Hittable, depth: Int): Color {
         return Color(0.0, 0.0, 0.0)
 
     if(world.hit(r, 0.001, infinity, rec)) {
-        val target = rec.p + rec.normal + randomInHemisphere(rec.normal)
-        val result = rayColor(Ray(rec.p, target - rec.p), world, depth-1) * 0.5
-        return Color(result.x(), result.y(), result.z())
+        val scattered = Ray()
+        val attenuation = Color()
+        if (rec.material.scatter(r, rec, attenuation, scattered)) {
+            val result = attenuation * rayColor(scattered, world, depth - 1)
+            return Color(result.x(), result.y(), result.z())
+        }
+        return Color(0.0, 0.0, 0.0)
     }
     val unitDirection = r.direction.unitVector()
     val t = 0.5 * (unitDirection.y() + 1.0)
@@ -31,8 +35,16 @@ fun main(args: Array<String>) {
     // World
 
     val world = HittableList()
-    world.add(Sphere(Point3(0.0, 0.0, -1.0), 0.5))
-    world.add(Sphere(Point3(0.0, -100.5, -1.0), 100.0))
+
+    val materialGround = Lambertian(Color(0.8, 0.8, 0.0))
+    val materialCenter = Lambertian(Color(0.7, 0.3, 0.3))
+    val materialLeft   = Metal(Color(0.8, 0.8, 0.8))
+    val materialRight  = Metal(Color(0.8, 0.6, 0.2))
+
+    world.add(Sphere(Point3( 0.0, -100.5, -1.0), 100.0, materialGround))
+    world.add(Sphere(Point3( 0.0,    0.0, -1.0),   0.5, materialCenter))
+    world.add(Sphere(Point3(-1.0,    0.0, -1.0),   0.5, materialLeft))
+    world.add(Sphere(Point3( 1.0,    0.0, -1.0),   0.5, materialRight))
 
     // Camera
 

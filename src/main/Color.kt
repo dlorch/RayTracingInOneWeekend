@@ -2,7 +2,7 @@ package main
 
 import kotlin.math.sqrt
 
-class Color(e0: Double = 0.0, e1: Double = 0.0, e2: Double = 0.0): Vec3(e0, e1, e2) {
+class Color(var e0: Double = 0.0, var e1: Double = 0.0, var e2: Double = 0.0): Vec3(e0, e1, e2) {
     fun writeColor(samplesPerPixel: Int): String {
         var r = this.x()
         var g = this.y()
@@ -19,5 +19,13 @@ class Color(e0: Double = 0.0, e1: Double = 0.0, e2: Double = 0.0): Vec3(e0, e1, 
                (256 * clamp(r, 0.0, 0.999)).toInt() + " " +
                (256 * clamp(g, 0.0, 0.999)).toInt() + " " +
                (256 * clamp(b, 0.0, 0.999)).toInt() + "\n"
+    }
+    fun copyValuesFrom(other: Color) {
+        e0 = other.e0
+        e1 = other.e1
+        e2 = other.e2
+        e[0] = other.e0
+        e[1] = other.e1
+        e[2] = other.e2
     }
 }
