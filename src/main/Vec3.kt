@@ -83,3 +83,5 @@ fun randomInUnitSphere(): Vec3 {
         return p
     }
 }
+
+fun randomUnitVector() = unitVector(randomInUnitSphere())
