@@ -17,8 +17,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3e433ea4-a25c-4c1d-96a9-ec5ef8717025" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Vec3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Vec3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Color.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605987104002</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Diffuse sphere">
+      <created>1605989754422</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1605989754422</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +285,8 @@
     <MESSAGE value="Hittable class, Sphere class and some more constant" />
     <MESSAGE value="6.17 normals colored sphere" />
     <MESSAGE value="Antialiasing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Antialiasing" />
+    <MESSAGE value="Diffuse sphere" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diffuse sphere" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1169" y="395" width="532" height="348" key="#Notifications" timestamp="1605646954622">
@@ -334,10 +341,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="857" y="185" width="1028" height="833" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1605815093520" />
-    <state x="1019" y="199" width="804" height="516" key="Vcs.Push.Dialog.v2" timestamp="1605987118598">
+    <state x="1017" y="183" width="804" height="516" key="Vcs.Push.Dialog.v2" timestamp="1605989764480">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="1019" y="199" width="804" height="516" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1605987118598" />
+    <state x="1017" y="183" width="804" height="516" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1605989764480" />
     <state x="1280" y="0" width="640" height="1183" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605648155645">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
