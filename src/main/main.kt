@@ -1,9 +1,15 @@
 package main
 
-fun rayColor(r: Ray, world: Hittable): Color {
+fun rayColor(r: Ray, world: Hittable, depth: Int): Color {
     var rec = HitRecord()
+
+    // If we've exceeded the ray bounce limit, no more light is gathered.
+    if (depth <= 0)
+        return Color(0.0, 0.0, 0.0)
+
     if(world.hit(r, 0.0, infinity, rec)) {
-        val result = (rec.normal + Color(1.0, 1.0, 1.0)) * 0.5
+        val target = rec.p + rec.normal + randomInUnitSphere()
+        val result = rayColor(Ray(rec.p, target - rec.p), world, depth-1) * 0.5
         return Color(result.x(), result.y(), result.z())
     }
     val unitDirection = r.direction.unitVector()
@@ -20,6 +26,7 @@ fun main(args: Array<String>) {
     val imageWidth = 400
     val imageHeight = (imageWidth / aspectRatio).toInt()
     val samplesPerPixel = 100
+    val maxDepth = 50
 
     // World
 
@@ -43,7 +50,7 @@ fun main(args: Array<String>) {
                 val u = (i + randomDouble()) / (imageWidth-1)
                 val v = (j + randomDouble()) / (imageHeight - 1)
                 val r = cam.getRay(u, v)
-                val rayColor = rayColor(r, world)
+                val rayColor = rayColor(r, world, maxDepth)
                 pixelColor = Color(pixelColor.x() + rayColor.x(), pixelColor.y() + rayColor.y(), pixelColor.z() + rayColor.z())
             }
             print(pixelColor.writeColor(samplesPerPixel))

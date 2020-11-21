@@ -71,3 +71,15 @@ fun cross(u: Vec3, v: Vec3): Vec3 = Vec3(
 )
 
 fun unitVector(v: Vec3): Vec3 = v / v.length()
+
+fun randomVec3() = Vec3(randomDouble(), randomDouble(), randomDouble())
+
+fun randomVec3(min: Double, max: Double) = Vec3(randomDouble(min, max), randomDouble(min, max), randomDouble(min, max))
+
+fun randomInUnitSphere(): Vec3 {
+    while(true) {
+        val p = randomVec3(-1.0,1.0)
+        if (p.lengthSquared() >= 1.0) continue
+        return p
+    }
+}
