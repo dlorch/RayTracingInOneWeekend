@@ -16,8 +16,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e433ea4-a25c-4c1d-96a9-ec5ef8717025" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/Camera.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/HittableList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/HittableList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Color.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/RTWeekend.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/RTWeekend.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -231,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605878892789</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="6.17 normals colored sphere">
+      <created>1605882101831</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605882101831</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,7 +272,8 @@
     <MESSAGE value="5.10 simple red sphere" />
     <MESSAGE value="6.11 colored sphere" />
     <MESSAGE value="Hittable class, Sphere class and some more constant" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hittable class, Sphere class and some more constant" />
+    <MESSAGE value="6.17 normals colored sphere" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.17 normals colored sphere" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1169" y="395" width="532" height="348" key="#Notifications" timestamp="1605646954622">
@@ -318,10 +328,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="857" y="185" width="1028" height="833" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1605815093520" />
-    <state x="1023" y="231" width="804" height="516" key="Vcs.Push.Dialog.v2" timestamp="1605828069658">
+    <state x="1021" y="215" width="804" height="516" key="Vcs.Push.Dialog.v2" timestamp="1605882122887">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="1023" y="231" width="804" height="516" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1605828069658" />
+    <state x="1021" y="215" width="804" height="516" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1605882122887" />
     <state x="1280" y="0" width="640" height="1183" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605648155645">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>

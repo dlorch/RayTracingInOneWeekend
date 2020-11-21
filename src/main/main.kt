@@ -1,7 +1,5 @@
 package main
 
-import kotlin.math.sqrt
-
 fun rayColor(r: Ray, world: Hittable): Color {
     var rec = HitRecord()
     if(world.hit(r, 0.0, infinity, rec)) {
@@ -21,6 +19,7 @@ fun main(args: Array<String>) {
     val aspectRatio = 16.0 / 9.0
     val imageWidth = 400
     val imageHeight = (imageWidth / aspectRatio).toInt()
+    val samplesPerPixel = 100
 
     // World
 
@@ -30,14 +29,7 @@ fun main(args: Array<String>) {
 
     // Camera
 
-    val viewportHeight = 2.0
-    val viewportWidth = aspectRatio * viewportHeight
-    val focalLength = 1.0
-
-    val origin = Point3(0.0, 0.0, 0.0)
-    val horizontal = Vec3(viewportWidth, 0.0, 0.0)
-    val vertical = Vec3(0.0, viewportHeight, 0.0)
-    val lowerLeftCorner = origin - horizontal / 2.0 - vertical / 2.0 - Vec3(0.0, 0.0, focalLength)
+    val cam = Camera()
 
     // Render
 
@@ -46,11 +38,15 @@ fun main(args: Array<String>) {
     for(j in imageHeight-1 downTo 0) {
         System.err.println("\rScanlines remaining: " + j + " ")
         for(i in 0 until imageWidth) {
-            val u = i.toDouble() / (imageWidth - 1)
-            val v = j.toDouble() / (imageHeight - 1)
-            val r = Ray(origin, lowerLeftCorner + horizontal * u + vertical * v - origin)
-            val pixelColor = rayColor(r, world)
-            print(pixelColor.writeColor())
+            var pixelColor = Color(0.0, 0.0, 0.0)
+            for(s in 0 until samplesPerPixel) {
+                val u = (i + randomDouble()) / (imageWidth-1)
+                val v = (j + randomDouble()) / (imageHeight - 1)
+                val r = cam.getRay(u, v)
+                val rayColor = rayColor(r, world)
+                pixelColor = Color(pixelColor.x() + rayColor.x(), pixelColor.y() + rayColor.y(), pixelColor.z() + rayColor.z())
+            }
+            print(pixelColor.writeColor(samplesPerPixel))
         }
     }
 
