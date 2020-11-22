@@ -294,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606081441866</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Glass sphere that sometimes refracts (broken)">
+      <created>1606083124279</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1606083124279</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,7 +317,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="IntelliJ IDEA project setup" />
     <MESSAGE value="PPM color cube" />
     <MESSAGE value="Fixes" />
@@ -335,7 +341,8 @@
     <MESSAGE value="Shiny metal" />
     <MESSAGE value="Fuzzed metal" />
     <MESSAGE value="Glass sphere that always refracts (broken)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Glass sphere that always refracts (broken)" />
+    <MESSAGE value="Glass sphere that sometimes refracts (broken)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Glass sphere that sometimes refracts (broken)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1169" y="395" width="532" height="348" key="#Notifications" timestamp="1605646954622">
