@@ -52,7 +52,7 @@ fun main(args: Array<String>) {
 
     // Camera
 
-    val cam = Camera(Point3(-2.0, 2.0, 1.0), Point3(0.0, 0.0, -1.0), Vec3(0.0, 1.0, 0.0), 90.0, aspectRatio)
+    val cam = Camera(Point3(-2.0, 2.0, 1.0), Point3(0.0, 0.0, -1.0), Vec3(0.0, 1.0, 0.0), 20.0, aspectRatio)
 
     // Render
 

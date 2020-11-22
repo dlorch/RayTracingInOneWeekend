@@ -16,8 +16,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e433ea4-a25c-4c1d-96a9-ec5ef8717025" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Camera.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Camera.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -315,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606084996912</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="A distant view">
+      <created>1606085708549</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1606085708549</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,7 +336,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixes" />
     <MESSAGE value="IntelliJ IDEA Workspace update" />
     <MESSAGE value="Add README.md" />
     <MESSAGE value="Add libs" />
@@ -356,7 +360,8 @@
     <MESSAGE value="Glass sphere that sometimes refracts (broken)" />
     <MESSAGE value="Hollow glass sphere (broken)" />
     <MESSAGE value="Wide angle view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wide angle view" />
+    <MESSAGE value="A distant view" />
+    <option name="LAST_COMMIT_MESSAGE" value="A distant view" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1169" y="395" width="532" height="348" key="#Notifications" timestamp="1605646954622">
@@ -411,10 +416,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="857" y="185" width="1028" height="833" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1605815093520" />
-    <state x="1007" y="103" width="804" height="516" key="Vcs.Push.Dialog.v2" timestamp="1606081455406">
+    <state x="1005" y="87" width="804" height="516" key="Vcs.Push.Dialog.v2" timestamp="1606085719674">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="1007" y="103" width="804" height="516" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1606081455406" />
+    <state x="1005" y="87" width="804" height="516" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1606085719674" />
     <state x="1280" y="0" width="640" height="1183" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605648155645">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
