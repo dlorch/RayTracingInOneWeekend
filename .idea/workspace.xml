@@ -16,13 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e433ea4-a25c-4c1d-96a9-ec5ef8717025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Material.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Color.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Hittable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Hittable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Ray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Ray.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Sphere.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Sphere.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Vec3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Vec3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Material.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Material.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -278,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605992088038</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Shiny metal">
+      <created>1605997225672</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1605997225672</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,7 +318,8 @@
     <MESSAGE value="Diffuse sphere with gamma" />
     <MESSAGE value="Lambertian spheres" />
     <MESSAGE value="Hemispherical scattering" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hemispherical scattering" />
+    <MESSAGE value="Shiny metal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shiny metal" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1169" y="395" width="532" height="348" key="#Notifications" timestamp="1605646954622">
@@ -371,10 +374,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="857" y="185" width="1028" height="833" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1605815093520" />
-    <state x="1013" y="151" width="804" height="516" key="Vcs.Push.Dialog.v2" timestamp="1605992103738">
+    <state x="1009" y="119" width="804" height="516" key="Vcs.Push.Dialog.v2" timestamp="1605997453492">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="1013" y="151" width="804" height="516" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1605992103738" />
+    <state x="1009" y="119" width="804" height="516" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1605997453492" />
     <state x="1280" y="0" width="640" height="1183" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605648155645">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>

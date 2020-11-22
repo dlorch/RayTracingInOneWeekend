@@ -18,10 +18,15 @@ class Lambertian(val albedo: Color): Material {
     }
 }
 
-class Metal(val albedo: Color): Material {
+class Metal(val albedo: Color, val f: Double): Material {
+    val fuzz = if (f < 1)
+        f
+    else
+        1.0
+
     override fun scatter(rIn: Ray, rec: HitRecord, attenuation: Color, scattered: Ray): Boolean {
         val reflected = reflect(unitVector(rIn.direction), rec.normal)
-        scattered.copyValuesFrom(Ray(rec.p, reflected))
+        scattered.copyValuesFrom(Ray(rec.p, reflected + randomInUnitSphere()*fuzz))
         attenuation.copyValuesFrom(albedo)
         return (dot(scattered.direction, rec.normal) > 0)
     }
