@@ -16,6 +16,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e433ea4-a25c-4c1d-96a9-ec5ef8717025" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Camera.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Camera.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Vec3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Vec3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -320,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606085708549</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Changing field of view">
+      <created>1606085918243</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1606085918243</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,7 +346,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="IntelliJ IDEA Workspace update" />
     <MESSAGE value="Add README.md" />
     <MESSAGE value="Add libs" />
     <MESSAGE value="Add IDEA project update" />
@@ -361,7 +370,8 @@
     <MESSAGE value="Hollow glass sphere (broken)" />
     <MESSAGE value="Wide angle view" />
     <MESSAGE value="A distant view" />
-    <option name="LAST_COMMIT_MESSAGE" value="A distant view" />
+    <MESSAGE value="Changing field of view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing field of view" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1169" y="395" width="532" height="348" key="#Notifications" timestamp="1605646954622">

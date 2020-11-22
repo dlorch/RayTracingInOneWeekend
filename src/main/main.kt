@@ -52,7 +52,13 @@ fun main(args: Array<String>) {
 
     // Camera
 
-    val cam = Camera(Point3(-2.0, 2.0, 1.0), Point3(0.0, 0.0, -1.0), Vec3(0.0, 1.0, 0.0), 20.0, aspectRatio)
+    val lookfrom = Point3(3.0, 3.0, 2.0)
+    val lookat = Point3(0.0, 0.0, -1.0)
+    val vup = Vec3(0.0, 1.0, 0.0)
+    val distToFocus = (lookfrom-lookat).length()
+    val aperture = 2.0
+
+    val cam = Camera(lookfrom, lookat, vup, 20.0, aspectRatio, aperture, distToFocus)
 
     // Render
 

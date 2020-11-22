@@ -109,3 +109,11 @@ fun refract(uv: Vec3, n: Vec3, etaiOverEtat: Double): Vec3 {
     val rOutParallel = n * -sqrt(abs(1.0 - rOutPerp.lengthSquared()))
     return rOutPerp + rOutParallel
 }
+
+fun randomInUnitDisk(): Vec3 {
+    while(true) {
+        val p = Vec3(randomDouble(-1.0, 1.0), randomDouble(-1.0, 1.0), 0.0)
+        if (p.lengthSquared() >= 1) continue
+        return p
+    }
+}
