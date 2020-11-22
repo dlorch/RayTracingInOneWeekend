@@ -1,6 +1,7 @@
 package main
 
 import kotlin.math.abs
+import kotlin.math.min
 import kotlin.math.sqrt
 
 open class Vec3(e0: Double = 0.0, e1: Double = 0.0, e2: Double = 0.0) {
@@ -101,3 +102,10 @@ fun randomInHemisphere(normal: Vec3): Vec3 {
 }
 
 fun reflect(v: Vec3, n: Vec3) = v - n*2.0*dot(v,n)
+
+fun refract(uv: Vec3, n: Vec3, etaiOverEtat: Double): Vec3 {
+    val cosThetha = min(dot(-uv, n), 1.0)
+    val rOutPerp = (uv + n*cosThetha) * etaiOverEtat
+    val rOutParallel = n * -sqrt(abs(1.0 - rOutPerp.lengthSquared()))
+    return rOutPerp + rOutParallel
+}

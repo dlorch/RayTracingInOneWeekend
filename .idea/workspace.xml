@@ -17,7 +17,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3e433ea4-a25c-4c1d-96a9-ec5ef8717025" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Hittable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Hittable.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Material.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Material.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Vec3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Vec3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -280,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605997225672</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Fuzzed metal">
+      <created>1606071788356</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1606071788356</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,7 +328,8 @@
     <MESSAGE value="Lambertian spheres" />
     <MESSAGE value="Hemispherical scattering" />
     <MESSAGE value="Shiny metal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shiny metal" />
+    <MESSAGE value="Fuzzed metal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fuzzed metal" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1169" y="395" width="532" height="348" key="#Notifications" timestamp="1605646954622">
@@ -338,10 +348,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="747" y="228" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1605811719208" />
-    <state x="1206" y="99" width="444" height="550" key="#com.intellij.ide.util.MemberChooser" timestamp="1605993392660">
+    <state x="1204" y="83" width="444" height="550" key="#com.intellij.ide.util.MemberChooser" timestamp="1606074171856">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="1206" y="99" width="444" height="550" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1605993392660" />
+    <state x="1204" y="83" width="444" height="550" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1606074171856" />
     <state x="1164" y="315" width="528" height="433" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1605797434127">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>

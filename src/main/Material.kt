@@ -31,3 +31,19 @@ class Metal(val albedo: Color, val f: Double): Material {
         return (dot(scattered.direction, rec.normal) > 0)
     }
 }
+
+class Dielectric(val indexOfRefraction: Double): Material {
+    override fun scatter(rIn: Ray, rec: HitRecord, attenuation: Color, scattered: Ray): Boolean {
+        attenuation.copyValuesFrom(Color(1.0, 1.0, 1.0))
+        val refractionRatio = if(rec.frontFace)
+            (1.0/indexOfRefraction)
+        else
+            indexOfRefraction
+
+        val unitDirection = unitVector(rIn.direction)
+        val refracted = refract(unitDirection, rec.normal, refractionRatio)
+
+        scattered.copyValuesFrom(Ray(rec.p, refracted))
+        return true
+    }
+}
