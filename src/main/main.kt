@@ -39,15 +39,20 @@ fun main(args: Array<String>) {
     val R = cos(pi/4.0)
     val world = HittableList()
 
-    val materialLeft   = Lambertian(Color(0.0, 0.0, 1.0))
-    val materialRight  = Lambertian(Color(1.0, 0.0, 0.0))
+    val materialGround = Lambertian(Color(0.8, 0.8, 0.0))
+    val materialCenter = Lambertian(Color(0.1, 0.2, 0.5))
+    val materialLeft   = Dielectric(1.5)
+    val materialRight  = Metal(Color(0.8, 0.6, 0.2), 0.0)
 
-    world.add(Sphere(Point3(-R,0.0, -1.0), R, materialLeft))
-    world.add(Sphere(Point3( R,0.0, -1.0), R, materialRight))
+    world.add(Sphere(Point3( 0.0,-100.5, -1.0), 100.0,  materialGround))
+    world.add(Sphere(Point3( 0.0,   0.0, -1.0),   0.5,  materialCenter))
+    world.add(Sphere(Point3(-1.0,   0.0, -1.0),   0.5,  materialLeft))
+    world.add(Sphere(Point3(-1.0,   0.0, -1.0),  -0.45, materialLeft))
+    world.add(Sphere(Point3( 1.0,   0.0, -1.0),   0.5,  materialRight))
 
     // Camera
 
-    val cam = Camera(90.0, aspectRatio)
+    val cam = Camera(Point3(-2.0, 2.0, 1.0), Point3(0.0, 0.0, -1.0), Vec3(0.0, 1.0, 0.0), 90.0, aspectRatio)
 
     // Render
 

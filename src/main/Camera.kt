@@ -3,6 +3,9 @@ package main
 import kotlin.math.tan
 
 class Camera(
+        val lookfrom: Point3,
+        val lookat: Point3,
+        val vup: Vec3,
         val vfov: Double, // vertical vield-of-view in degrees
         val aspectRatio: Double
 ) {
@@ -17,13 +20,15 @@ class Camera(
         val viewportHeight = 2.0 * h
         val viewportWidth = aspectRatio * viewportHeight
 
-        val focalLength = 1.0
+        val w = unitVector(lookfrom - lookat)
+        val u = unitVector(cross(vup, w))
+        val v = cross(w, u)
 
-        origin = Point3(0.0, 0.0, 0.0)
-        horizontal = Vec3(viewportWidth, 0.0, 0.0)
-        vertical = Vec3(0.0, viewportHeight, 0.0)
-        lowerLeftCorner = origin - horizontal / 2.0 - vertical / 2.0 - Vec3(0.0, 0.0, focalLength)
+        origin = lookfrom
+        horizontal = u * viewportWidth
+        vertical = v * viewportHeight
+        lowerLeftCorner = origin - horizontal / 2.0 - vertical / 2.0 - w
     }
 
-    fun getRay(u: Double, v: Double): Ray = Ray(origin, lowerLeftCorner + horizontal*u + vertical*v - origin)
+    fun getRay(s: Double, t: Double): Ray = Ray(origin, lowerLeftCorner + horizontal*s + vertical*t - origin)
 }

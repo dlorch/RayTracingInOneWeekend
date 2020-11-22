@@ -308,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606084360600</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Wide angle view">
+      <created>1606084996912</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1606084996912</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,7 +331,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="PPM color cube" />
     <MESSAGE value="Fixes" />
     <MESSAGE value="IntelliJ IDEA Workspace update" />
     <MESSAGE value="Add README.md" />
@@ -349,7 +355,8 @@
     <MESSAGE value="Glass sphere that always refracts (broken)" />
     <MESSAGE value="Glass sphere that sometimes refracts (broken)" />
     <MESSAGE value="Hollow glass sphere (broken)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hollow glass sphere (broken)" />
+    <MESSAGE value="Wide angle view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wide angle view" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1169" y="395" width="532" height="348" key="#Notifications" timestamp="1605646954622">
