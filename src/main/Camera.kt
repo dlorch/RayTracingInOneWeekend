@@ -1,15 +1,22 @@
 package main
 
-class Camera {
+import kotlin.math.tan
+
+class Camera(
+        val vfov: Double, // vertical vield-of-view in degrees
+        val aspectRatio: Double
+) {
     private var origin: Point3
     private var horizontal: Vec3
     private var vertical: Vec3
     private var lowerLeftCorner: Vec3
 
     init {
-        val aspectRatio = 16.0 / 9.0
-        val viewportHeight = 2.0
+        val theta = degreesToRadians(vfov)
+        val h = tan(theta/2.0)
+        val viewportHeight = 2.0 * h
         val viewportWidth = aspectRatio * viewportHeight
+
         val focalLength = 1.0
 
         origin = Point3(0.0, 0.0, 0.0)
