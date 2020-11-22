@@ -37,9 +37,9 @@ fun main(args: Array<String>) {
     val world = HittableList()
 
     val materialGround = Lambertian(Color(0.8, 0.8, 0.0))
-    val materialCenter = Dielectric(1.5)
+    val materialCenter = Lambertian(Color(0.1, 0.2, 0.5))
     val materialLeft   = Dielectric(1.5)
-    val materialRight  = Metal(Color(0.8, 0.6, 0.2), 1.0)
+    val materialRight  = Metal(Color(0.8, 0.6, 0.2), 0.0)
 
     world.add(Sphere(Point3( 0.0, -100.5, -1.0), 100.0, materialGround))
     world.add(Sphere(Point3( 0.0,    0.0, -1.0),   0.5, materialCenter))

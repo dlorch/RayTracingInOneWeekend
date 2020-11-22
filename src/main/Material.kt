@@ -1,5 +1,9 @@
 package main
 
+import kotlin.math.min
+import kotlin.math.sin
+import kotlin.math.sqrt
+
 interface Material {
     fun scatter(rIn: Ray, rec: HitRecord, attenuation: Color, scattered: Ray): Boolean
 }
@@ -41,9 +45,16 @@ class Dielectric(val indexOfRefraction: Double): Material {
             indexOfRefraction
 
         val unitDirection = unitVector(rIn.direction)
-        val refracted = refract(unitDirection, rec.normal, refractionRatio)
+        val cosTheta = min(dot(-unitDirection, rec.normal), 1.0)
+        val sinTheta = sqrt(1.0 - cosTheta*cosTheta)
 
-        scattered.copyValuesFrom(Ray(rec.p, refracted))
+        val cannotRefract = refractionRatio * sinTheta > 1.0
+        val direction = if(cannotRefract)
+            reflect(unitDirection, rec.normal)
+        else
+            refract(unitDirection, rec.normal, refractionRatio)
+
+        scattered.copyValuesFrom(Ray(rec.p, direction))
         return true
     }
 }
