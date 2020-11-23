@@ -29,3 +29,7 @@ class Color(var e0: Double = 0.0, var e1: Double = 0.0, var e2: Double = 0.0): V
         e[2] = other.e2
     }
 }
+
+fun randomColor(): Color = Color(randomDouble(), randomDouble(), randomDouble())
+
+fun randomColor(min: Double, max: Double): Color = Color(randomDouble(min, max), randomDouble(min, max), randomDouble(min, max))

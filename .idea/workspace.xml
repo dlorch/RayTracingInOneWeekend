@@ -17,8 +17,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3e433ea4-a25c-4c1d-96a9-ec5ef8717025" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Camera.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Camera.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Vec3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Vec3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Color.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -330,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606085918243</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Spheres with depth-of-field">
+      <created>1606087314582</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1606087314582</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,7 +352,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add README.md" />
     <MESSAGE value="Add libs" />
     <MESSAGE value="Add IDEA project update" />
     <MESSAGE value="Add Vec3 class and some tests" />
@@ -371,7 +376,8 @@
     <MESSAGE value="Wide angle view" />
     <MESSAGE value="A distant view" />
     <MESSAGE value="Changing field of view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing field of view" />
+    <MESSAGE value="Spheres with depth-of-field" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spheres with depth-of-field" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1169" y="395" width="532" height="348" key="#Notifications" timestamp="1605646954622">
